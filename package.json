@@ -1,0 +1,20 @@
+{
+  "name": "image-abstraction-layer",
+  "version": "1.0.0",
+  "description": "searches for images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Jake Casey",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.4"
+  }
+}
