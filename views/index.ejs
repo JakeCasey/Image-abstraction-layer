@@ -1,0 +1,35 @@
+
+<title> Image Search Abstraction Layer</title>
+<link rel="stylesheet" href="./views/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<body>
+<div class="container">
+  <h1 class="header">Image Search Abstraction Layer API</h1><blockquote>
+    <p>User stories:</p>
+    <ul><li> I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</ul></li>
+    <ul><li> I can paginate through the responses by adding a ?offset=2 parameter to the URL.</ul></li>
+    <ul><li> I can get a list of the most recently submitted search strings.</ul></li>
+
+    </blockquote>
+    <h3>Example usage:</h3>
+    <br/>
+    <code>http://thissite.com/api/cats?offset=2</code>
+    </br>
+    <code>http://thissite.com/api/latest/imagesearch</code>
+    <h3>Example output</h3>
+    <code>
+        {"title":"Such well behaved children! Rupert and Bonnie this morning.","url":"http://i.imgur.com/JtxOskq.jpg","description":null}
+    </code>
+    </br>
+    <code>
+        {"created_at":"2016-12-27T00:34:30.275Z","search":"reddit"}
+    </code>
+ </div></body>
+
+</div>
+</div>
+</body>
